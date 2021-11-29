@@ -59,7 +59,7 @@ nav{
 
 @media screen and (max-width:768px){
     body{
-        overflow-x: hidden;
+    overflow-x: hidden;
     }
     .nav-links{
         position: absolute;
@@ -92,7 +92,7 @@ nav{
         transform: translateX(50px);
     }
     to{
-        opacity: 0;
+        opacity: 1;
         transform: translateX(0px);
 
     }
