@@ -1,153 +1,94 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
-    list-style: none;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
 }
 nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color: #add8e6;
-    font-family: "Poppins", sans-serif;
-    
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #00B4D8;
+  font-family: "Poppins", sans-serif;
+  
 }
 
 .logo{
-    color: rgb(226, 226, 226); 
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 20px;
+  color: rgb(226, 226, 226); 
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
 }
 .nav-links{
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
 }
 .nav-links li{
-    display: inline-block;
-    margin: 0 8px;
-    line-height: 80px;
+  display: inline-block;
+  margin: 0 8px;
+  line-height: 80px;
 }
 .nav-links a{
-    color: rgb(226, 226, 226); 
-    font-size: 14px;
-    letter-spacing: 3px;
-    font-weight: bold;
-    border: 1px solid transparent;
-    padding: 7px 10px;
-    border-radius: 3px;
+  color: rgb(226, 226, 226); 
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  border: 1px solid transparent;
+  padding: 7px 10px;
+  border-radius: 3px;
 }
 a.active,a:hover{
-    border:1px solid white;
-    transition: .5s; 
+  border:1px solid white;
+  transition: 0.5s; 
 }
-nav #icon{
-    color: white;
-    font-size: 30px;
-    line-height: 80px;
-    float: right;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-
-}
-@media (max-width: 1024px){
-    label.logo{
-        font-size: 32px;
-        padding-left: 60px;
-}
-
-}
-nav a{
-    font-size: 17px;
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
   }
-
-@media (max-width: 909px){
-    nav #icon{
-        display: block;
-}
-nav ul{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #2f3640;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-}
-nav li{
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-}
-nav a{
-    font-size: 20px;
-}
-a.active,a:hover{
-    border: none;
-    color: #3498db;
-
-    
-        margin: 0;
-        padding: 0;
-        font-family: "Poppins", sans-serif;
-        }
-        body{
-            background: #0096c2;
-        }
-
-
-        }
-        .container {
-        background-image: url("https://lh3.googleusercontent.com/proxy/UHmZLoDBphRaL5QeKB5E9Jk4XPT12MylRmWCCY2qgMVFDv3xaaSTo0oPMIgSc780-7ZFiVw6_Q8Nt3H0WxY4-5JA3aSCW7_LVnweQA3l0GZoJjiNw-LLEiFIeqsve5VZWek3KWjhEpiejOgfywQo1UrYphzOWe4M63A");
-        background-size: cover;
-        padding: 10px;
-        margin: 10px;
-        text-align: center;
-        color: white;
-        }
-        .container p {
-          max-width: 300px;
-          margin: 40px auto;
-          font-size: 15px;
-          font-weight: 300;
-        }
-        .email-box{
-          height: 40px;
-          display: flex;
-          justify-content: center;
-        }
-        .email-box i{
-          background: #2f3542;
-          width: 40px;
-          line-height: 40px;
-        }
-        .tbox,.btn{
-          border: none;
-          outline: none;
-        }
-        .tbox{
-          width: 0px;
-          transition: 0.6s;
-        }
-        email-box:hover > .tbox,.tbox:focus{
-          width: 260px;
-          padding: 0 10px;
-        }
-        .btn{
-          background: #2f3542;
-          color: white;
-          padding: 0 10px;
-          text-transform: uppercase;
-          cursor: pointer;
-        }
-        
-
-
-   
-
-
-
+    body{
+      background: #90E0EF;
+    }
+  .container{
+     padding: 100px 40px;
+     text-align: center;
+     color: white;
+    }
+  .container p {
+     max-width: 600px;
+     margin: 40px auto;
+     font-size: 15px;
+     font-weight: 300;
+    }
+   .email-box{
+     height: 40px;
+     display: flex;
+     justify-content: center;
+    }
+   .email-box i{
+     background: #2f3542;
+     width: 40px;
+     line-height: 40px;
+    }
+   .tbox,.btn{
+     border: none;
+     outline: none;
+    }
+   .tbox{
+     width: 0px;
+     transition: 0.6s;
+    }
+    .email-box:hover > .tbox,.tbox:focus{
+     width: 260px;
+     padding: 0 10px;
+    }
+    .btn{
+     background: #2f3542;
+     color: white;
+     padding: 0 10px;
+     text-transform: uppercase;
+     cursor: pointer;
+    }
+      
