@@ -63,7 +63,7 @@ nav #icon{
 nav a{
     font-size: 17px;
   }
-}
+
 @media (max-width: 909px){
     nav #icon{
         display: block;
