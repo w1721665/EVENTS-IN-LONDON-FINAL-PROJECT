@@ -1,16 +1,16 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-} 
-    
+    text-decoration: none;
+    list-style: none;
+}
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
     background-color: #add8e6;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     
 }
 
@@ -26,85 +26,128 @@ nav{
     width: 30%;
 }
 .nav-links li{
-    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
 }
 .nav-links a{
     color: rgb(226, 226, 226); 
-    text-decoration: none;
+    font-size: 14px;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 14px;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
 }
-
-.burger{
-    display: none;
+a.active,a:hover{
+    border:1px solid white;
+    transition: .5s; 
+}
+nav #icon{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
     cursor: pointer;
-}
-
-.burger div{
-    width: 25px;
-    height: 3px;
-    background-color: rgb(226, 226, 226);
-    margin: 5px;
-    transition: all 0.3s ease;
-}
-
-@media screen and (max-width:1024px){
-    .nav-links{
-    width: 60%;
-    }
+    display: none;
 
 }
+@media (max-width: 1024px){
+    label.logo{
+        font-size: 32px;
+        padding-left: 60px;
+}
 
-
-@media screen and (max-width:768px){
-    body{
-    overflow-x: hidden;
-    }
-    .nav-links{
-        position: absolute;
-        right: 0px;
-        height: 92vh;
-        top: 8vh;
-        background-color: #add8e6;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 50%;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
-    }
-    nav-links li{
-        opacity: 0;
-    }
-    .burger{
+}
+nav a{
+    font-size: 17px;
+  }
+}
+@media (max-width: 909px){
+    nav #icon{
         display: block;
-    }
 }
+nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2f3640;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+}
+nav li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+}
+nav a{
+    font-size: 20px;
+}
+a.active,a:hover{
+    border: none;
+    color: #3498db;
 
-.nav-active{
-    transform: translateX(0%);
+    
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+        }
+        body{
+            background: #0096c2;
+        }
 
-}
-@keyframes navLinkFade{
-    from{
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
 
-    }
-}
+        }
+        .container {
+        background-image: url("https://lh3.googleusercontent.com/proxy/UHmZLoDBphRaL5QeKB5E9Jk4XPT12MylRmWCCY2qgMVFDv3xaaSTo0oPMIgSc780-7ZFiVw6_Q8Nt3H0WxY4-5JA3aSCW7_LVnweQA3l0GZoJjiNw-LLEiFIeqsve5VZWek3KWjhEpiejOgfywQo1UrYphzOWe4M63A");
+        background-size: cover;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        color: white;
+        }
+        .container p {
+          max-width: 300px;
+          margin: 40px auto;
+          font-size: 15px;
+          font-weight: 300;
+        }
+        .email-box{
+          height: 40px;
+          display: flex;
+          justify-content: center;
+        }
+        .email-box i{
+          background: #2f3542;
+          width: 40px;
+          line-height: 40px;
+        }
+        .tbox,.btn{
+          border: none;
+          outline: none;
+        }
+        .tbox{
+          width: 0px;
+          transition: 0.6s;
+        }
+        email-box:hover > .tbox,.tbox:focus{
+          width: 260px;
+          padding: 0 10px;
+        }
+        .btn{
+          background: #2f3542;
+          color: white;
+          padding: 0 10px;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
+        
 
-.toggle .line1{
-transform: rotate(-45deg) translate(-5px,6px);
-}
-.toggle .line2{
-    opacity: 0;
-}
-.toggle .line3{
-    transform: rotate(45deg) translate(-5px,-6px);
 
-}
+   
+
+
+
