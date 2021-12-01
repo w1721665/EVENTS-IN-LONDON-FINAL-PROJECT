@@ -32,7 +32,7 @@ function SlideShow(n) {
   function SlideShow() {
     var i; 
     var slides = document.getElementsByClassName("Containers");
-    for (i=0; i<slides.length); i++) {
+    for (i=0; i<slides.length; i++) {
       slides[i].style.display="none";
     }
     slidePosition++;
