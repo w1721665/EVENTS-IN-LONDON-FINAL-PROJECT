@@ -5,12 +5,18 @@
   max-width: 500px;
   position: relative;
   margin: auto;
+  font-style: oblique;
 }
 
 /* Make the images invisible by default */
 .Containers {
   display: none;
 }
+
+/*Info*/
+.Info
+{color: blanchedalmond;
+background-color: rgba(0,0,0,0.8);}
 
 /* forward & Back buttons */
 .Back, .forward {
