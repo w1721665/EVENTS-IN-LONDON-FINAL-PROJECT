@@ -49,12 +49,16 @@ a.active,a:hover{
     font-family: "montserrat", sans-serif;
   }
     body{
-      background: #90E0EF;
+      background: black
+      overflow-x: hidden;
+      fill: #000;
+      
+      
     }
   .container{
      padding: 100px 40px;
      text-align: center;
-     color: white;
+     color: black;
     }
   .container p {
      max-width: 600px;
@@ -86,7 +90,7 @@ a.active,a:hover{
     }
     .btn{
      background: #2f3542;
-     color: white;
+     color: black;
      padding: 0 10px;
      text-transform: uppercase;
      cursor: pointer;
