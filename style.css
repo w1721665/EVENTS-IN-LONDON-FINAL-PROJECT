@@ -70,11 +70,14 @@ a.active,a:hover{
      height: 40px;
      display: flex;
      justify-content: center;
+     color: white;
+
     }
    .email-box i{
      background: #2f3542;
      width: 40px;
      line-height: 40px;
+     color: black
     }
    .tbox,.btn{
      border: none;
@@ -90,7 +93,7 @@ a.active,a:hover{
     }
     .btn{
      background: #2f3542;
-     color: black;
+     color: white;
      padding: 0 10px;
      text-transform: uppercase;
      cursor: pointer;
