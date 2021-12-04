@@ -2,12 +2,14 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  width:1024px; height:768px; 
+  max-width: 2000px;
   position: relative;
   margin: auto;
   font-style: oblique;
   
 }
+
 
 /*Info*/
 .Info
