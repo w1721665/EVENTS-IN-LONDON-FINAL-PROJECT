@@ -48,13 +48,7 @@ a.active,a:hover{
     padding: 0;
     font-family: "montserrat", sans-serif;
   }
-    body{
-      background: black
-      overflow-x: hidden;
-      fill: #000;
       
-      
-    }
   .container{
      padding: 100px 40px;
      text-align: center;
@@ -70,14 +64,14 @@ a.active,a:hover{
      height: 40px;
      display: flex;
      justify-content: center;
-     color: white;
+     color: black;
 
     }
    .email-box i{
      background: #2f3542;
      width: 40px;
      line-height: 40px;
-     color: black
+     color: white;
     }
    .tbox,.btn{
      border: none;
@@ -93,7 +87,7 @@ a.active,a:hover{
     }
     .btn{
      background: #2f3542;
-     color: white;
+     color:black;
      padding: 0 10px;
      text-transform: uppercase;
      cursor: pointer;
