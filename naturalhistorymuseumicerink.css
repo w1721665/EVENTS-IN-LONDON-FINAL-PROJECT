@@ -18,7 +18,7 @@ background-color: rgba(0,0,0,0.8);}
 
 /* Make the images invisible by default */
 .Containers {
-display: none
+display:none;
 
 }
 
@@ -80,7 +80,7 @@ display: none
   background-color: #acc;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 1s ease;
+  transition: background-color 5s ease;
 }
 
 .enable, .dots:hover {
@@ -90,9 +90,9 @@ display: none
 /* Faint animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.4s;
+  -webkit-animation-duration: 5s;
   animation-name: fade;
-  animation-duration: 1.4s;
+  animation-duration: 5s;
 }
 
 @-webkit-keyframes fade {
