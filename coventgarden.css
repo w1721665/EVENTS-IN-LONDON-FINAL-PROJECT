@@ -6,12 +6,15 @@ h2 {
   font-family: cursive;
 }
 
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  max-width: 1000px;
   position: relative;
   margin: auto;
   font-style: oblique;
