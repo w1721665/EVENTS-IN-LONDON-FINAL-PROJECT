@@ -89,35 +89,18 @@ a.active,a:hover{
      color: black;
     }
     .btn{
+     background: black;
      color: black;
      padding: 0 10px;
      text-transform: uppercase;
      cursor: pointer;
     }
-      
-
-body{
-    margin: 0;
-    padding: 0;
-}
-
-h1{
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-p{
-  margin: 0;
-  padding: 0px 50px;
-  font-size: 18px;
-  text-align: justify;
-}
 
 .inner-footer{
-  margin: 0;
-  padding: 0;
+  margin: 100;
+  padding: 100;
   background-color: aqua;
+  text-align: center;
 }
 
 .social-links{
@@ -125,7 +108,7 @@ p{
 }
 
 .social-links ul{
-    display:flex;
+    display: flex;
     width: 300px;
     height: 30px;
     margin: auto;
