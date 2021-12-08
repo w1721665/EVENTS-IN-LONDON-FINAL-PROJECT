@@ -21,6 +21,16 @@ nav ul {
   flex-wrap: wrap;
 }
 
+nav ul div.items{
+  padding:0 25px;
+  display:inline-flex;
+}
+
+nav ul div.items a{
+  text-decoration: none;
+  padding: 0 12px;
+}
+
 .logo{
   color: rgb(226, 226, 226); 
   text-transform: uppercase;
