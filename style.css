@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   text-decoration: none;
+  
   list-style: none;
 }
 nav{
@@ -12,6 +13,12 @@ nav{
   background-color: #00B4D8;
   font-family: "Poppins", sans-serif;
   
+}
+
+nav ul {
+  display:flex;
+  list-style: none;
+  flex-wrap: wrap;
 }
 
 .logo{
@@ -89,7 +96,7 @@ a.active,a:hover{
      color: black;
     }
     .btn{
-     background: black;
+     background-color: black;
      color: black;
      padding: 0 10px;
      text-transform: uppercase;
