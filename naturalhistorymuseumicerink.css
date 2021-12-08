@@ -1,3 +1,11 @@
+
+h1 {
+  font-family: sans-serif;
+}
+
+h2 {
+  font-family: cursive;
+}
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -21,8 +29,6 @@ background-color: rgba(0,0,0,0.8);}
 display:none;
 
 }
-
-
 
 /* forward & Back buttons */
 .Back, .forward {
