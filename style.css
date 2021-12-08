@@ -52,7 +52,7 @@ nav ul div.items a{
   font-size: 14px;
   letter-spacing: 3px;
   font-weight: bold;
-  border: 1px solid transparent;
+  border: 1px solid black;
   padding: 7px 10px;
   border-radius: 3px;
 }
@@ -108,11 +108,12 @@ a.active,a:hover{
      color: black;
     }
     .btn{
-     background-color: black;
-     color: black;
+     background-color: green;
+     color: rgb(248, 244, 244);
      padding: 0 10px;
      text-transform: uppercase;
      cursor: pointer;
+     border: 2px solid black;
     }
 
 .inner-footer{
@@ -146,4 +147,13 @@ transition: all .25s;
 
 .social-items a:hover{
   color:rgba(0, 0, 255, 0.801)
+}
+.discover{
+  display: flex;
+  flex-direction:column;
+  margin: 0 auto;
+  align-items: center;
+  gap:1rem;
+  justify-content: center;
+  height: 50vh;
 }
