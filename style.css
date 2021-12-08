@@ -15,6 +15,12 @@ nav{
   
 }
 
+nav ul {
+  display:flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
 .logo{
   color: rgb(226, 226, 226); 
   text-transform: uppercase;
