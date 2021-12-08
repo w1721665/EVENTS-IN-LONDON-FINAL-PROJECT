@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   text-decoration: none;
+  
   list-style: none;
 }
 nav{
@@ -89,7 +90,7 @@ a.active,a:hover{
      color: black;
     }
     .btn{
-     background: black;
+     background-color: black;
      color: black;
      padding: 0 10px;
      text-transform: uppercase;
